@@ -37,6 +37,7 @@ E_SYS_MAIN_STATE e_sys_prev_state = MONITOR_STATE;
  
 uint8_t init_wait_cnt=STARTUP_WAIT_TIME;
 
+
 void a_u8APP_handler(void)
 {
 	G_RESP_CODE ret = 0;
