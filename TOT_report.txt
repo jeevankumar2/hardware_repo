@@ -1,0 +1,53 @@
+-------start-------
+----clean and build m_vMKEY_monitor-----
+Build success
+Internal ROM area : 16
+Non-map area : 8
+SFR area : 8
+Non-map area : 8
+DataFlash area : 16
+Mirror area : 16
+Internal RAM area : 16
+Register area : 16
+SFR area : 8
+emulator setting:E1Serial
+----connecting debugger-----
+connection success
+----downloading code-----
+Download success
+----TOT started-----
+{'P4.2': '1', 'P3.0': '1', 'u8_G_pres_state': '0', 'des': 'turn key to disable mode with tamper open', 'P2.6': '1', 'u8_G_sys_mode': 'DEFAULT_MODE'}===>set
+{'P2.4': '1', 'u8_G_pres_state': '3', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '1', 'P2.3': '1', 'u8_G_sys_mode': 'DEFAULT_MODE'}===>matched
+{'P2.4': '1', 'u8_G_pres_state': '3', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '1', 'P2.3': '1', 'u8_G_sys_mode': 'DEFAULT_MODE'}===>matched
+{'P2.4': '1', 'u8_G_pres_state': '3', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '1', 'P2.3': '1', 'u8_G_sys_mode': 'DISABLE_MODE'}===>matched
+{'P2.4': '0', 'u8_G_pres_state': '3', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '0', 'P2.3': '0', 'u8_G_sys_mode': 'DISABLE_MODE'}===>matched
+{'P4.2': '0', 'P3.0': '1', 'u8_G_pres_state': '0', 'des': 'turn key to day mode with tamper open', 'P2.6': '1', 'u8_G_sys_mode': 'DEFAULT_MODE'}===>set
+{'P2.4': '0', 'u8_G_pres_state': '2', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '0', 'P2.3': '0', 'u8_G_sys_mode': 'DEFAULT_MODE'}===>matched
+{'P2.4': '0', 'u8_G_pres_state': '2', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '0', 'P2.3': '0', 'u8_G_sys_mode': 'DEFAULT_MODE'}===>matched
+{'P2.4': '0', 'u8_G_pres_state': '2', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '0', 'P2.3': '0', 'u8_G_sys_mode': 'DAY_MODE'}===>matched
+{'P2.4': '1', 'u8_G_pres_state': '2', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '1', 'P2.3': '1', 'u8_G_sys_mode': 'DAY_MODE'}===>matched
+{'P4.2': '1', 'P3.0': '0', 'u8_G_pres_state': '0', 'des': 'turn key to night mode with tamper open', 'P2.6': '1', 'u8_G_sys_mode': 'DEFAULT_MODE'}===>set
+pin sts: P2.2 0
+{'P2.4': '1', 'u8_G_pres_state': '1', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '1', 'P2.3': '1', 'u8_G_sys_mode': 'DEFAULT_MODE'}===>unmatched
+pin sts: P2.2 0
+{'P2.4': '1', 'u8_G_pres_state': '1', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '1', 'P2.3': '1', 'u8_G_sys_mode': 'DEFAULT_MODE'}===>unmatched
+pin sts: P2.2 0
+{'P2.4': '1', 'u8_G_pres_state': '1', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '1', 'P2.3': '1', 'u8_G_sys_mode': 'NIGHT_MODE'}===>unmatched
+{'P2.4': '1', 'u8_G_pres_state': '1', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '1', 'P2.3': '1', 'u8_G_sys_mode': 'NIGHT_MODE'}===>matched
+{'P4.2': '1', 'P3.0': '1', 'u8_G_pres_state': '0', 'des': 'turn key to disable mode with tamper closed', 'P2.6': '0', 'u8_G_sys_mode': 'DEFAULT_MODE'}===>set
+{'P2.4': '1', 'u8_G_pres_state': '3', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '1', 'P2.3': '1', 'u8_G_sys_mode': 'DEFAULT_MODE'}===>matched
+{'P2.4': '1', 'u8_G_pres_state': '3', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '1', 'P2.3': '1', 'u8_G_sys_mode': 'DEFAULT_MODE'}===>matched
+{'P2.4': '1', 'u8_G_pres_state': '3', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '1', 'P2.3': '1', 'u8_G_sys_mode': 'DISABLE_MODE'}===>matched
+{'P2.4': '0', 'u8_G_pres_state': '3', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '0', 'P2.3': '0', 'u8_G_sys_mode': 'DISABLE_MODE'}===>matched
+{'P4.2': '0', 'P3.0': '1', 'u8_G_pres_state': '0', 'des': 'turn key to day mode with tamper closed', 'P2.6': '0', 'u8_G_sys_mode': 'DEFAULT_MODE'}===>set
+{'P2.4': '0', 'u8_G_pres_state': '2', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '0', 'P2.3': '0', 'u8_G_sys_mode': 'DEFAULT_MODE'}===>matched
+{'P2.4': '0', 'u8_G_pres_state': '2', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '0', 'P2.3': '0', 'u8_G_sys_mode': 'DEFAULT_MODE'}===>matched
+{'P2.4': '0', 'u8_G_pres_state': '2', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '0', 'P2.3': '0', 'u8_G_sys_mode': 'DAY_MODE'}===>matched
+{'P2.4': '0', 'u8_G_pres_state': '2', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '0', 'P2.3': '0', 'u8_G_sys_mode': 'DAY_MODE'}===>matched
+{'P4.2': '1', 'P3.0': '0', 'u8_G_pres_state': '0', 'des': 'turn key to night mode with tamper closed', 'P2.6': '0', 'u8_G_sys_mode': 'DEFAULT_MODE'}===>set
+{'P2.4': '0', 'u8_G_pres_state': '1', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '0', 'P2.3': '0', 'u8_G_sys_mode': 'DEFAULT_MODE'}===>matched
+{'P2.4': '0', 'u8_G_pres_state': '1', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '0', 'P2.3': '0', 'u8_G_sys_mode': 'DEFAULT_MODE'}===>matched
+{'P2.4': '0', 'u8_G_pres_state': '1', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '0', 'P2.3': '0', 'u8_G_sys_mode': 'NIGHT_MODE'}===>matched
+{'P2.4': '0', 'u8_G_pres_state': '1', 'addr': 'm_vMKEY_monitor+98', 'P2.2': '0', 'P2.3': '0', 'u8_G_sys_mode': 'NIGHT_MODE'}===>matched
+TIMESTAMP: 28_04_2019 19.01.13
+-------end-------
