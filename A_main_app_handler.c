@@ -61,6 +61,7 @@ void a_u8APP_handler(void)
 		ret = m_vMKEY_monitor();
 		if(ret != DEFAULT_MODE)
 		{
+			
 			alt_stop();
 			m_vLOG_logdata();
 			//m_u8ZONE_alt_reset();
