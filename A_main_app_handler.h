@@ -5,7 +5,4 @@
 
 void a_u8APP_handler(void);
 
-
-
-
 #endif
