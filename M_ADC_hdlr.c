@@ -15,8 +15,6 @@
 #define ADC_INITIAL_VAL 500
 //uint16_t ADC_buffer[NO_OF_ADC_IN] = {0};
 
-
-
 uint16_t test_adc_array[NO_OF_ADC_IN] = {0};
 
 ADC_CH_ST ADC_ch_st[NO_OF_ADC_IN] = {0};
