@@ -1,6 +1,4 @@
 #pragma div
-
-
 #include "M_ADC_hdlr.h"
 //#include "H_lcd_driver.h"
 #include "M_event_handler.h"
